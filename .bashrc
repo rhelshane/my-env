@@ -13,7 +13,7 @@ fi
 function doGit () 
 {
   git add -A
-  git commit -m "Quick Commit $(date +\"%m-%d-%y\")"
+  git commit -m "Quick Commit - $(date +\"%m-%d-%y\")"
   git push origin master
 }
 
