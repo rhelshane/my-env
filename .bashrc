@@ -21,3 +21,4 @@ function doGit ()
 
 alias now='date +"%T"'
 alias update='sudo yum -y update'
+alias digssh='ssh -i ~/.ssh/digitalocean'
